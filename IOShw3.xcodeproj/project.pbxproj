@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D6C50722378710100E129F2 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6C50712378710100E129F2 /* GameData.swift */; };
+		7D6C50742378711C00E129F2 /* GameDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6C50732378711C00E129F2 /* GameDetail.swift */; };
+		7D6C50762378714200E129F2 /* GameList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6C50752378714200E129F2 /* GameList.swift */; };
+		7D6C50782378715A00E129F2 /* PpMonster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6C50772378715A00E129F2 /* PpMonster.swift */; };
+		7D6C507A2378718500E129F2 /* MonsterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6C50792378718500E129F2 /* MonsterData.swift */; };
+		7D6C507C2378719C00E129F2 /* MonsterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6C507B2378719C00E129F2 /* MonsterInfo.swift */; };
+		7D6C507E237871BD00E129F2 /* SearchVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6C507D237871BD00E129F2 /* SearchVersion.swift */; };
+		7D6C50802378791C00E129F2 /* MainMonster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6C507F2378791C00E129F2 /* MainMonster.swift */; };
+		7D6C50822378823400E129F2 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6C50812378823400E129F2 /* AppView.swift */; };
 		7DDCE33523783C0E0012AC4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDCE33423783C0E0012AC4D /* AppDelegate.swift */; };
 		7DDCE33723783C0E0012AC4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDCE33623783C0E0012AC4D /* SceneDelegate.swift */; };
 		7DDCE33923783C0E0012AC4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDCE33823783C0E0012AC4D /* ContentView.swift */; };
@@ -35,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D6C50712378710100E129F2 /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		7D6C50732378711C00E129F2 /* GameDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetail.swift; sourceTree = "<group>"; };
+		7D6C50752378714200E129F2 /* GameList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameList.swift; sourceTree = "<group>"; };
+		7D6C50772378715A00E129F2 /* PpMonster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PpMonster.swift; sourceTree = "<group>"; };
+		7D6C50792378718500E129F2 /* MonsterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterData.swift; sourceTree = "<group>"; };
+		7D6C507B2378719C00E129F2 /* MonsterInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterInfo.swift; sourceTree = "<group>"; };
+		7D6C507D237871BD00E129F2 /* SearchVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVersion.swift; sourceTree = "<group>"; };
+		7D6C507F2378791C00E129F2 /* MainMonster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMonster.swift; sourceTree = "<group>"; };
+		7D6C50812378823400E129F2 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		7DDCE33123783C0E0012AC4D /* IOShw3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOShw3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DDCE33423783C0E0012AC4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DDCE33623783C0E0012AC4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +120,15 @@
 				7DDCE33423783C0E0012AC4D /* AppDelegate.swift */,
 				7DDCE33623783C0E0012AC4D /* SceneDelegate.swift */,
 				7DDCE33823783C0E0012AC4D /* ContentView.swift */,
+				7D6C50712378710100E129F2 /* GameData.swift */,
+				7D6C50732378711C00E129F2 /* GameDetail.swift */,
+				7D6C50752378714200E129F2 /* GameList.swift */,
+				7D6C50772378715A00E129F2 /* PpMonster.swift */,
+				7D6C50792378718500E129F2 /* MonsterData.swift */,
+				7D6C507B2378719C00E129F2 /* MonsterInfo.swift */,
+				7D6C507D237871BD00E129F2 /* SearchVersion.swift */,
+				7D6C507F2378791C00E129F2 /* MainMonster.swift */,
+				7D6C50812378823400E129F2 /* AppView.swift */,
 				7DDCE33A23783C0F0012AC4D /* Assets.xcassets */,
 				7DDCE33F23783C0F0012AC4D /* LaunchScreen.storyboard */,
 				7DDCE34223783C0F0012AC4D /* Info.plist */,
@@ -268,8 +295,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DDCE33523783C0E0012AC4D /* AppDelegate.swift in Sources */,
+				7D6C50782378715A00E129F2 /* PpMonster.swift in Sources */,
+				7D6C50762378714200E129F2 /* GameList.swift in Sources */,
+				7D6C50722378710100E129F2 /* GameData.swift in Sources */,
 				7DDCE33723783C0E0012AC4D /* SceneDelegate.swift in Sources */,
 				7DDCE33923783C0E0012AC4D /* ContentView.swift in Sources */,
+				7D6C507E237871BD00E129F2 /* SearchVersion.swift in Sources */,
+				7D6C507C2378719C00E129F2 /* MonsterInfo.swift in Sources */,
+				7D6C50822378823400E129F2 /* AppView.swift in Sources */,
+				7D6C507A2378718500E129F2 /* MonsterData.swift in Sources */,
+				7D6C50742378711C00E129F2 /* GameDetail.swift in Sources */,
+				7D6C50802378791C00E129F2 /* MainMonster.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
